@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(39, 37, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 1350px;
+    width: 60%;
+    margin: 5px auto;
+    padding: 20px;
+}
+
+.esquerda {
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    float: left;
+    color: white;
+    padding: 20px;
+}
+
+.direita {
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+/* Classe para limpar flutuações */
+.clear {
+    clear: both;
+}
+
+.img-perfil{
+    width: 260px;
+    height: 260px;
+    border: 4px solid #48cae4;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 16px;
+}
+
+h3 {
+    color: rgb(10, 80, 150);
+    font-style: italic;
+    font-weight: 400;
+    margin: 16px 0;
+    font-size: 24px;
+}
+
+h2 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: #48cae4;
+}
+
+h4 {
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.contatos {
+    margin-top: 36px;
+}
+
+.contatos p {
+    margin-bottom: 16px;
+}
+
+/* Additional styles for contact icons */
+.contatos i {
+    margin-right: 10px;
+    color: rgb(10, 80, 150);
+}
+
+/* Additional styles for links */
+.contatos a {
+    color: white;
+    text-decoration: none;
+}
+
+.contatos a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure the layout is responsive */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .esquerda,
+    .direita {
+        width: 100%;
+        float: none;
+    }
+}
+
+.circulo {
+    height: 16px;
+    width: 16px;
+    background-color: #90e0ef;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circulo-vazio {
+    height: 16px;
+    width: 16px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.img-watermark{
+    padding-top: 50px;
+    width: 220px;
+    height: 220px;
+    display: block;
+      margin: 0 auto;
+}
